@@ -4,6 +4,7 @@
 
 
 
+
 ## Présentation du projet : 
 
 Coach est une application **Xamarin** développé avec **Visual Studio code 2019** en **C#**.
@@ -86,6 +87,7 @@ Le modèle d’architecture **Model-View-Controller (MVC)** sépare une applicat
 #### **Partie Modèle** :
 
 Dans la partie modèle, nous créons la **class Profil** et ses différentes **méthodes**, ici nous pouvons voir le **constructeur** de la class Profil permettant d'initialiser les attributs privés de la classe : 
+
 ![67ebfa29d9628dac7a962899b2accce4.png](/img/user/67ebfa29d9628dac7a962899b2accce4.png)
 
 Ainsi que les différentes méthodes, comme par exemple celle ci qui permet le calcule de l'IMG :
@@ -103,6 +105,7 @@ Dans la partie controleur, nous utiliserons les données du **modèle** qui sero
 #### **Partie Vue** :
 
 Pour la partie vue, il faut d'abord **déclarer** les **différentes propriétés** que nous avons dans la partie graphique : 
+
 ![7ed25de3e3fb13ecba294df807188f7f.png](/img/user/7ed25de3e3fb13ecba294df807188f7f.png)
 Ensuite il faut **relier** ces propriétés avec celle de **l'interface graphique** : 
 
@@ -126,6 +129,7 @@ Voici le **résultat** avec des exemples concret :
 ## Tests unitaires : 
 
 Pour le calcul de l'IMC par exemple, nous avions besoin de vérifier le **bon fonctionnement des différents calculs**, c'est la qu'interviennent les **Test unitaires**, ils nous permettent de **comparer les valeurs attendus avec celle reçu par la fonction**  : 
+
 ![5cca737f3fb09c6ccc34561efbe00c23.png](/img/user/5cca737f3fb09c6ccc34561efbe00c23.png)
 **Delta** est la marge accordé à l'erreur, donc ici de 0,1 d'interval.
 Ensuite nous effecturons des tests pour chaque cas de figure : 
